@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/TIY_IgnoringLights&Cameras.unity
+- path: Assets/Hour5.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
