@@ -1,40 +1,27 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] private float health = 1004f;
+    [SerializeField] private float poisonDamage = 125.5f;
+    [SerializeField] private float tickInterval = 0.5f; // seconds between poison ticks
+
     void Start()
     {
-        float health = 1004f;
-        float poisonDamage = 125.5f;
-
         Debug.Log(health);
+        StartCoroutine(PoisonWhileAlive());
+    }
 
-        health -= poisonDamage;
-        Debug.Log(health);
-
-        health -= poisonDamage;
-        Debug.Log(health);
-
-        health -= poisonDamage;
-        Debug.Log(health);
-
-        health -= poisonDamage;
-        Debug.Log(health);
-
-        health -= poisonDamage;
-        Debug.Log(health);
-
-        health -= poisonDamage;
-        Debug.Log(health);
-
-        health -= poisonDamage;
-        Debug.Log(health);
-
-        health -= poisonDamage;
-        Debug.Log(health);
+    private IEnumerator PoisonWhileAlive()
+    {
+        while (health > 0f)
+        {
+            yield return new WaitForSeconds(tickInterval);
+            health -= poisonDamage;
+            health = Mathf.Max(0f, health);
+            Debug.Log(health);
+        }
 
         Debug.Log("Player has been unalived!");
     }
