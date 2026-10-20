@@ -10,7 +10,6 @@ public class AudioScript : MonoBehaviour
     { }
     AudioSource audioSource;
 
-    void Start()
     {
         audioSource = GetComponent<AudioSource>();
 
@@ -21,7 +20,6 @@ public class AudioScript : MonoBehaviour
         }
     }
 
-    void Update()
     {
         // Toggle play/pause when the Jump button is pressed
         if (Input.GetButtonDown("Jump") && audioSource != null)
