@@ -288,7 +288,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 292237873}
   m_LocalRotation: {x: 0.0020296958, y: 0.98858976, z: 0.15002744, w: -0.013339598}
-  m_LocalPosition: {x: -20.142975, y: -22.243052, z: 46.803047}
+  m_LocalPosition: {x: -21.758295, y: -3.6431556, z: -13.044797}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -708,8 +708,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 668272106}
-  - component: {fileID: 668272105}
   - component: {fileID: 668272104}
+  - component: {fileID: 668272108}
   - component: {fileID: 668272107}
   m_Layer: 0
   m_Name: BlueGoal
@@ -780,19 +780,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!65 &668272105
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 668272103}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3, y: 2, z: 3}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &668272106
 Transform:
   m_ObjectHideFlags: 0
@@ -821,6 +808,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isSolved: 0
+--- !u!65 &668272108
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668272103}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 2, z: 3}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1301,7 +1301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efdf1d1d87a4e5348bf1ac6690ac82f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blue: {fileID: 668272107}
+  blue: {fileID: 0}
   green: {fileID: 591450864}
   red: {fileID: 2134574218}
   orange: {fileID: 1069882732}
@@ -1855,7 +1855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f293153c1222c644b8a235804e05c0cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isSolved: 1
+  isSolved: 0
 --- !u!108 &1069882733
 Light:
   m_ObjectHideFlags: 0
