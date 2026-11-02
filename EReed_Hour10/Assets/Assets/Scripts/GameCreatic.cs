@@ -8,5 +8,5 @@ Things I did to modify the game
 1)Made the bumper more complex making it look more like a scoop.
 2)Made the bumper smaller in size.
 3)Added a diffrent chaos ball thats pink made it bigger and changed the speed to 60.
-4)
+4)Added a timer to the player
  */
