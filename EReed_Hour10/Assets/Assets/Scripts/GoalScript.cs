@@ -5,21 +5,22 @@ using UnityEngine;
 public class GoalScript : MonoBehaviour
 {
     public bool isSolved = false;
-    // Start is called before the first frame update
-    void Start()
+
+    private void OnTriggerEnter(Collider collider)
     {
-        GameObject collideWith = GetComponent<Collider>().gameObject;
+        GameObject collideWith = collider.gameObject;
+
         if (collideWith.tag == gameObject.tag)
         {
             isSolved = true;
-            GetComponent<Light>().enabled = false;
+
+            Light goalLight = GetComponent<Light>();
+            if (goalLight != null)
+            {
+                goalLight.enabled = false;
+            }
+
             Destroy(collideWith);
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
