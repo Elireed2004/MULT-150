@@ -3,4 +3,10 @@
  2) What would make it easier would be maybe not so many balls or not having the balls being able to interact with each other.
  3) Maybe a wow factor would be touching one ball and accidently getting all the balls in there goals on the first hit.
  4) For me the whole game is fun because you have to try anf stay close to the ball your trying to score with but at the same time trying to block other ones from fitting it, but whatwas tedious was all the balls hitting each other and not knowing where they are going. 
+ 
+Things I did to modify the game
+1)Made the bumper more complex making it look more like a scoop.
+2)Made the bumper smaller in size.
+3)Added a diffrent chaos ball thats pink made it bigger and changed the speed to 60.
+4)
  */
