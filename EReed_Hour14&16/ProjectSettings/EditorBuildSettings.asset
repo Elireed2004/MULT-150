@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/EReed_Hour14.unity
+    guid: 8edb33fae6195dc4a8eec6c07c03d187
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 6f83686ec24289249908d14b6ba275b3
   m_configObjects: {}
