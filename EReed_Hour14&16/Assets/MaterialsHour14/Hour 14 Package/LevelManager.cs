@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
-	public string sceneToLoad = "Game";
+	public string sceneToLoad = "EReed_Hour16";
 
 
 	public void LoadGame ()
