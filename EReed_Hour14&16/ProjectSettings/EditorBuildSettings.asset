@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/EReed_Hour14.unity
     guid: 8edb33fae6195dc4a8eec6c07c03d187
   - enabled: 1
-    path: Assets/Scenes/EReed_Hour16.unity
+    path: Assets/Scenes/Game.unity
     guid: e478e6af788d023478fc49f7931508f3
   m_configObjects: {}
